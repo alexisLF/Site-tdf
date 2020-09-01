@@ -1,0 +1,11 @@
+git config --global user.name "zrz r"
+
+git pull //pour recuperer les fichiers 
+git status //etat du git
+git add *
+git status //etat du git
+git commit –m 'message'
+git push //pour donner les fichiers 
+
+
+

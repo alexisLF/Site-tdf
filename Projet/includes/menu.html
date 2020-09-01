@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tour de France</title>
+
+		<!--Import Google Icon Font-->
+    	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="../materialize/css/materialize.css"  media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="stylesheet" href="../includes/styleMenu.css"/>
+
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="../materialize/js/materialize.js"></script>
+
+	<nav class="blue darken-1">
+        <ul>
+            <li>Coureur
+                <ul class="subMenu blue darken-1">
+                    <li><a href="../coureur/index.php">Ajouter un coureur</a></li>
+                    <li><a href="../coureur/modifierCoureur.php">Modifier un coureur</a></li>
+                    <li><a href="../coureur/supprimerCoureur.php">Supprimer un coureur</a></li>
+                    <li><a href="../coureur/afficheCoureurs.php">Afficher les coureurs</a></li>
+                </ul>
+            </li>
+
+            <li>Sponsor
+                <ul class="subMenu blue darken-1">
+                    <li><a href="../sponsor/ajoutEquipe.php">Ajouter une équipe</a></li>
+                    <li><a href="../sponsor/ajoutSponsor.php">Ajouter un sponsor</a></li>
+                    <li><a href="../sponsor/modifierSponsor.php">Modifier un sponsor</a></li>
+                    <li><a href="../sponsor/supprimerSponsor.php">Supprimer un sponsor</a></li>
+                    <li><a href="../sponsor/afficheSponsor.php">Afficher les sponsors d'une équipe</a></li>
+                    <li><a href="../sponsor/afficheCoureursEquipe.php">Afficher les coureurs d'une équipe</a></li>
+                </ul>
+            </li>
+            <li>Participations Équipes
+                <ul class="subMenu blue darken-1">
+                    <li><a href="../partiEquipe/index.php">Ajouter une participation d'équipe</a></li>
+                    <li><a href="../partiEquipe/modifierPartiEquipe.php">Modifier une participation d'équipe</a></li>
+                    <li><a href="../partiEquipe/supprimerPartiEquipe.php">Supprimer une participation d'équipe</a></li>
+                    <li><a href="../partiEquipe/affichePartiEquipe.php">Afficher les participations d'équipe</a></li>
+                </ul>
+            </li>
+            <li>Participations de coureurs
+                <ul class="subMenu blue darken-1">
+	                <li><a href="../partiCoureur/index.php">Ajouter une participation de coureur</a></li>
+	                <li><a href="../partiCoureur/modifierPartiCoureur.php">Modifier une participation de coureur</a></li>
+	                <li><a href="../partiCoureur/supprimerPartiCoureur.php">Supprimer une participation de coureur</a></li>
+                </ul>
+            </li>
+            <li>Étapes
+                <ul class="subMenu blue darken-1">
+                    <li><a href="../etape/index.php">Ajouter une étape</a></li>
+                    <li><a href="../etape/modifierEtape.php">Modifier une étape</a></li>
+                    <li><a href="../etape/supprimerEtape.php">Supprimer une étape</a></li>
+                </ul>
+            </li>
+            <li>Afficher les détails d'un tour
+                <ul class="subMenu blue darken-1">
+                    <li><a href="../annee/annee.php">Choisir l'année du Tour</a></li>
+                </ul>
+            </li>
+            <li>Informations générales
+                <ul class="subMenu blue darken-1">
+                    <li><a href="../general/recupVillesEtapes.php">Afficher les villes étapes</a></li>
+                    <li><a href="../general/recupNationsParticipantes.php">Afficher les nations participantes</a></li>
+                    <li><a href="../general/recupPaysVisites.php">Afficher les pays visités</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
